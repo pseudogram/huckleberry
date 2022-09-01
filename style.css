@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  /* padding: 0;  */
-  /* margin: 0;  */
-
 }
 
 html,
@@ -15,7 +12,6 @@ body,
 
 /* Add styles here! */
 .max-width-wrapper {
-  /* max-width:1000px; */
   max-width: 780px; 
   margin-right: auto;
   margin-left: auto;
@@ -46,14 +42,11 @@ header {
   color:hsl(160deg, 100%, 30%);
 }
 
-
 /* main */
 main {
   border-block-start: solid 8px hsl(0deg, 0%, 40%);
   background-color: hsl(0deg, 0%,60%);
   padding: 64px 0px;
-  /* margin-right: auto; */
-  /* margin-left: auto; */
 }
 
 .card {
