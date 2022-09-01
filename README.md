@@ -1,3 +1,17 @@
+## My Submission
+
+### Desktop View
+
+<img alt="Desktop screenshot of an agency landing page" src="./img/desktop-view-huckleberry.png" style="max-width: 500px;" />
+
+### Tablet View
+
+<img alt="Tablet screenshot of an agency landing page" src="./img/ipad-view-huckleberry.png" style="max-width: 400px;" />
+
+### Smartphone View
+
+<img alt="Mobile screenshot of an agency landing page" src="./img/iphone-view-huckleberry.png" style="max-width: 300px;" />
+
 # Huckleberry Agency Website
 
 In this workshop, you'll build a minimal landing page for an agency.
