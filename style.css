@@ -1,12 +1,74 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  /* padding: 0;  */
+  /* margin: 0;  */
+
 }
 
 html,
-body {
+body, 
+*{
   margin: 0;
   padding: 0;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width:1000px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  margin-block: 24px;
+  font-size: 1.25rem;
+}
+h1 {
+  font-size:2rem;
+  margin-block-end: 64px;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Header */
+header {
+  padding-block: 96px 48px;
+}
+.intro-chunk {
+  padding-inline: 32px;
+  max-width: 480px;
+}
+
+.intro-chunk strong {
+  color:hsl(160deg, 100%, 30%);
+}
+
+
+/* main */
+main {
+  border-block-start: solid 8px hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%,60%);
+  padding: 64px 0px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 32px;
+  padding-top: 8px;
+  border-block-end: solid 8px hsl(0deg, 0%, 40%);
+  max-width: 780px;
+}
+
+/* Wealth comes from operations */
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: solid 8px hsl(45deg, 100%, 40%);
+  padding-block: 16px;
+  padding-inline: 40px;
+  margin-inline-start: -40px;
+  width: fit-content;
+}
